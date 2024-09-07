@@ -6,6 +6,18 @@
     <title>e-citizen</title>
 </head>
 <body>
+ <style>
+    div{
+      background-color:blue;
+    }
+    fieldset{
+      border:double;
+      border: 40px,50px,60px,70;
+      margin:20px,30px,40px,50px;
+      padding:100px,80px,60px,50px;
+      text-align: justify;
+    }
+  </style>
  <main>
         <form action="#" method="post">
 <!--PERSONAL INFO-->
@@ -74,5 +86,60 @@
 <button type="submit">submit</button>
         </form>
     </main>
+         
+        <div class="div">
+         <h1>iyf</h1>
+        </div>
+        <button id= 'uppercase'>
+        capitalize heading 
+
+        </button>
+   
+        <script>
+const heading = document.getElementById ("leta")
+const capitalize = documement.getElementById('uppercase')
+capilize.addEventListener('click', function(){
+heading.textContent.toUpperCase();
+});
+        </script>
+        
     </body>
-    </html>
+    </html>body{ 
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   }
+
+   #content h1{
+      background-color: rgb(255, 81, 0);
+   }
+
+fieldset{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend{
+   font-weight: bold;
+}
+
+label{
+   display: block;
+   margin: 10px 0 5px;
+}
+
+ input, select, textarea{
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+
+}
+
+button{
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
